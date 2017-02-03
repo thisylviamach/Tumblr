@@ -13,6 +13,7 @@
 		D638F0971E4439950067CC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D638F0961E4439950067CC4F /* Assets.xcassets */; };
 		D638F09A1E4439950067CC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638F0981E4439950067CC4F /* LaunchScreen.storyboard */; };
 		D638F0A21E443AD10067CC4F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638F0A11E443AD10067CC4F /* PhotosViewController.swift */; };
+		D638F0A41E443ECA0067CC4F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638F0A31E443ECA0067CC4F /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D638F0991E4439950067CC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D638F09B1E4439950067CC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D638F0A11E443AD10067CC4F /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		D638F0A31E443ECA0067CC4F /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				D638F0981E4439950067CC4F /* LaunchScreen.storyboard */,
 				D638F09B1E4439950067CC4F /* Info.plist */,
 				D638F0A11E443AD10067CC4F /* PhotosViewController.swift */,
+				D638F0A31E443ECA0067CC4F /* PhotoCell.swift */,
 			);
 			path = TumblrFeed;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D638F0901E4439950067CC4F /* AppDelegate.swift in Sources */,
+				D638F0A41E443ECA0067CC4F /* PhotoCell.swift in Sources */,
 				D638F0A21E443AD10067CC4F /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
